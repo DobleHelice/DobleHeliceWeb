@@ -7,7 +7,9 @@
 h1, h2, h3{
     text-align: center;
 }
-
+/*p{
+  text-align: center;
+}*/
 header {
     color: #fff;
     text-align: center;
