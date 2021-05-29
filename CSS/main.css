@@ -2,10 +2,10 @@
 	font-family: Verdana, Geneva, sans-serif !important;
 }
 
-
 h1{
     text-align: center;
 }
+
 header {
     color: #fff;
     text-align: center;
@@ -14,15 +14,18 @@ header {
     width: 100%;
     left: 0;
 }
+
 footer {
     color: #fff;
     text-align: center;
     background-color: #159957;
     background-image: linear-gradient(120deg, #155799, #159957);
+    margin-top: 10px;
 }
+
 .nav {
-    color: #7ed957;
     text-align: center;
+    color: #7ed957;
     background-color: #003380;
     text-decoration: none;
     padding: 5px;
