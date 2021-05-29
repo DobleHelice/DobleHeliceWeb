@@ -54,8 +54,21 @@ table, th, td{
     margin-right: auto;
     border-collapse: collapse;
 }
-.ytvideo{
-    max-width: 50%;
+/*.ytvideo{
+    max-width: 40%;
     margin-left: auto;
     margin-right: auto;
-}
+}*/
+.ytvideo{
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .ytvideo iframe{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
