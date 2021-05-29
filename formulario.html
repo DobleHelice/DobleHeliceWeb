@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"/>
+<title>Datos Enviados - La web de la Doble Hélice</title>
+<meta name="description" content="La web de la Doble Hélice - Buenos Aires - Argentina"/>
+<script src="https://kit.fontawesome.com/55c2339907.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header style="background-color: blue;">
+    <nav>
+        <a style="background-color: blueviolet;" href="index.html"> Home </a>
+        <a style="background-color: blueviolet;" href="edificio.html"> Edificio </a>
+        <a style="background-color: blueviolet;" href="departamento.html"> Departamento </a>
+        <a style="background-color: blueviolet;" href="biblioteca.html"> Biblioteca </a>
+        <a style="background-color: blueviolet;" href="contacto.html"> Contacto </a>
+    </nav>
+    <h1 style="text-align:center;">La Doble Hélice - Agrupación estudiantil</h1>
+    
+    </header>
+    <p align=center>&nbsp;</p>
+    <h1 align=center><font size="+1">Se ha registrado la siguiente información</font></h1>
+    
+    <table border="1" align=center width="226">
+      <tr>
+        <th align="center">Campo</th>
+        <th align="center">Datos Ingresados</th>
+      </tr>
+    <br>
+
+    <script language="javascript">
+    var args = location.search.substr(1).split('&');
+    for (var i = 0; i < args.length; ++i) {
+      var parts = args[i].split('=');
+      if (parts != null) {
+        var field = parts[0];
+        var value = parts[1];
+        if (value == null) {
+          value = "null"
+        }
+        else {
+          value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+        }
+    
+        document.writeln('<tr><td align="center">' + field + '</td>');
+        document.writeln('<td align="center">' + value + '</td></tr>');
+      }
+    }
+    </script>
+    
+    <noscript>
+    <tr><td>
+    <p>You need to turn on Javascript in your browser.</p>
+    
+    <p>In Microsoft Internet Explorer 4 or greater:</p>
+    <ul>
+    <li>From the "Tools" menu (in IE 4, it's the "View" menu), select "Internet Options".</li>
+    <li>Click on the "Security" tab.</li>
+    <li>Click on the "Custom Level" button. (In IE 4, select "Custom"
+    and then click on "Settings...".)</li>
+    <li>Under "Active scripting" make sure "Enable" is selected.</li>
+    </ul>
+    
+    <p>In Netscape version 4 or greater:</p>
+    <ul>
+    <li>From the <b>Edit</b> menu, select <b>Preferences</b>.</li>
+    <li>In the <b>Category</b> list on the left, click on the word "Advanced".</li>
+    <li>In the panel on the right, make sure "Enable JavaScript" is checked.</li>
+    <li>Click the <b>OK</b> button.</li>
+    </ul>
+    
+    </td></tr>
+    </noscript>
+    
+    </table>
+    </body>
+    </html>
