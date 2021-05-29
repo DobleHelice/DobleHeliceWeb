@@ -47,6 +47,7 @@ footer {
     padding: 5px;
     margin: 5px;
     border-radius: 5px;
+    display: inline-block;
 }
 table, th, td{
     border: 1px solid black;
