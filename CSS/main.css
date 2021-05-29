@@ -32,6 +32,13 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+.logobio{
+    max-width:5%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .nav {
     text-align: center;
     color: #7ed957;
