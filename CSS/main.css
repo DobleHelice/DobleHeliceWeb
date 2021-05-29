@@ -54,3 +54,10 @@ table, th, td{
     margin-right: auto;
     border-collapse: collapse;
 }
+.ytvideo{
+    position: relative;
+    max-width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
