@@ -52,6 +52,17 @@ footer {
     border-radius: 5px;
     display: inline-block;
 }
+.nav:hover {
+    text-align: center;
+    color: #003380;
+    background-color: #7ed957;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
 table, th, td{
     border: 1px solid black;
     margin-left: auto;
@@ -116,7 +127,14 @@ textarea {
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
-
+}
+input[type=submit]{
+    color:#ffffff;
+    background-color:#3f743c ;
+    width: 100%;
+    padding: 14px 20px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 input:focus,
 textarea:focus {
@@ -130,10 +148,6 @@ textarea {
   height: 5em;
   margin-left: auto;
   margin-right: auto;
-}
-.button {
-  /* Align buttons with the text fields */
-  padding-left: 90px; /* same size as the label elements */
 }
 button {
   /* This extra margin represent roughly the same space as the space
