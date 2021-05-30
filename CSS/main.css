@@ -82,7 +82,24 @@ footer {
     border-radius: 5px;
     display: inline-block;
 }
-
+a{
+  text-align: center;
+  text-decoration: none;
+  padding: 2px;
+  margin: 2px;
+  border-radius: 2px;
+  display: inline-block;
+}
+a:hover{
+  text-align: center;
+  color: #7ed957;
+  background-color: #003380;
+  text-decoration: none;
+  padding: 2px;
+  margin: 2px;
+  border-radius: 2px;
+  display: inline-block;
+}
 table, th, td{
     border: 1px solid black;
     margin-left: auto;
