@@ -37,14 +37,16 @@ footer {
     bottom: 0;
 }
 .imgindex, .imgbiblio, .imgconformacion, .imgcontacto, .imgedificio{
-    max-width:50%;
+    max-width: 100%;
+    width
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 .logobio{
-    max-width:20%;
+    width:100%;
+    max-width:200px;
     height: auto;
     display: block;
     margin-left: auto;
@@ -86,12 +88,14 @@ table, th, td{
 }*/
 .ytvideo{
     position: relative;
-    width: 50%;
+    width: 100%;
+    max-width: 560px;
     margin-left: auto;
     margin-right: auto;
   }
   .ytvideo iframe{
     width: 100%;
+    max-width: 560px;
     margin-left: auto;
     margin-right: auto;
   }
