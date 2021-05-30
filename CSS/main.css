@@ -7,9 +7,12 @@
 h1, h2, h3{
     text-align: center;
 }
-/*p{
+
+.titleindex, .titleedificio, .titledepartamento, .titlebiblio, .titlecontact, .titlenos, h2, h3{
   text-align: center;
-}*/
+  color: #12270c;
+}
+
 header {
     color: #fff;
     text-align: center;
