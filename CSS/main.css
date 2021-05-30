@@ -30,14 +30,22 @@ menu {
 li {
   margin-left: 18px;
 }
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 5rem;    /* Footer height */
+}
 footer {
+    position: absolute;
     color: #fff;
     text-align: center;
     background-color: #159957;
     background-image: linear-gradient(120deg, #155799, #159957);
-    margin-top: 10px;
     width: 100%;
     bottom: 0;
+    height: 5rem;
 }
 .imgindex, .imgbiblio, .imgconformacion, .imgedificio{
     max-width: 100%;
