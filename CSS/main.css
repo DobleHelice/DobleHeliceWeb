@@ -37,7 +37,7 @@ footer {
     bottom: 0;
 }
 .imgindex, .imgbiblio, .imgconformacion, .imgcontacto, .imgedificio{
-    max-width:40%;
+    max-width:50%;
     height: auto;
     display: block;
     margin-left: auto;
